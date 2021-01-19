@@ -273,7 +273,7 @@ def main():
         while True:
             user_input = input("Input guess number : ")
             if user_input == '0':
-                result = True
+                press_zero = True
                 break
 
             if not is_validated_number(user_input):
@@ -310,7 +310,7 @@ def main():
         
         if play_continue:
             continue
-        
+
         else:
             break
 
